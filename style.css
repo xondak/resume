@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Avenir;
+    src: url(avenir.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Motiva Bold";
+    src: url(Motiva-Sans-Bold-Italic.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Motiva Light";
+    src: url(Motiva-Sans-Light.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Motiva";
+    src: url(Motiva-Sans-Regular-Italic.otf);
+    font-weight: bold;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #525252;
+    color: #FFF;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header h1{
+    color: #fff;
+    font-size: 1em;
+    margin:0;
+}
+#subtitle{ 
+    border: #FCFCFC 1px solid;
+    width: 160px;
+    padding: 8px;
+    margin: 0 auto;
+}
+#moody{
+    font-family: "Motiva Bold", sans-serif;
+    text-transform: uppercase;
+    color: #fce81c;
+    font-size: 2.6em;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: "Motiva Light", sans-serif;
+    text-transform: uppercase;
+    color: #525252;
+    text-align: center;
+    font-size: 2em;
+}
+h2{
+    font-family: "Roboto Slab", 'Times New Roman', Times, serif;
+    margin-bottom: 0;but
+}
+h3{
+    font-family: "Motiva", sans-serif;
+    margin: 0;
+}
+p{
+    font-family: Avenir, sans-serif;
+    color: #525252;
+    max-width: 765px;
+}
+.profile p{
+    margin: 0 auto;
+}
+
+
+
+.year > div{
+    display: inline-block; 
+}
+.content article, .content aside{
+    display: inline-table;
+}
+
+article{
+    width: 70%;
+    margin-top: 1em;
+}
+.history{
+    background-image: url("bg.png");
+    background-repeat: repeat-y;
+}
+aside{
+    background-color: #c8c8c8;
+    width: 29.5%;
+    padding-top: 1em;
+}
+.job{
+    width: 40%;
+    padding-right: 2%;
+}
+.label, .job{
+    vertical-align: top;
+}
+.label{
+    padding-top: 15px;
+}
+.portrait{
+    width: 200px;
+    margin: 0 auto;
+}
+table{
+    font-family: "Avenir", sans-butserif;
+    margin:20px;
+}
+td{
+    padding: 4px;
+    vertical-align: top;
+}
+td:first-of-type{
+    color: #525252;
+}
+.education{
+    margin:20px;
+}
+.education h3, .education h2{
+    color: #525252;
+}
+.social{
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
+}
+.social > div{
+    display: inline-block;
+    margin: 0 2px;
+}
+/** #linux h2{
+    color:#060e7e;
+}
+#linux h3{
+    color:#a2bbe5;
+}
+#perrys h2{
+    color:#7e0663;
+}
+#perrys h3{
+    color:#cca2e5;
+}
+#diy h2{
+    color:#cd0000;
+}
+#diy h3{
+    color:#b87c7c;
+}
+#unity h2{
+    color:#346a16;
+}
+#unity h3{
+    color:#a1d585;
+}
+.depot h2{
+    color: #f3771c;
+}
+.depot h3{
+    color: #efab79;
+}**/
+ul{
+    font-family: "Motiva", sans-serif;
+}
+.cover{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10%;
+    background: #c8c8c8;
+    background: -webkit-linear-gradient(#c8c8c8, #fff);
+    background: -o-linear-gradient(#c8c8c8, #fff);
+    background: -moz-linear-gradient(#c8c8c8, #fff);
+    background: linear-gradient(#c8c8c8, #fff);
+}
+.internal{
+    max-width:550px;
+    margin: 0 auto;
+    background-color: #525252;
+    padding: 40px 60px;
+}
+.internal h3{
+    color: #fce81c;
+}
+.internal p, .internal li{
+    color: #FFF;
+}
+a{
+    color: black;
+    font-size: 10px;
+    font-family: "Avenir", sans-serif;
+}
+.dl{
+    text-align: center;
+}
+.download{
+    text-transform: uppercase;
+}
