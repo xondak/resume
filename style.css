@@ -70,14 +70,17 @@ h3{
     margin: 0;
 }
 p{
-    font-family: Avenir, sans-serif;
+    font-family: "Avenir", sans-serif;
     color: #525252;
     max-width: 765px;
 }
 .profile p{
     margin: 0 auto;
 }
-
+.redacted{
+    color: #FFF;
+    background-color: #000;
+}
 
 
 .year > div{
